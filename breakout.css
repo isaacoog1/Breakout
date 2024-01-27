@@ -1,0 +1,31 @@
+.grid {
+    height: 300px;
+    width: 560px;
+    border: 1px solid black;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #0000ff;
+}
+
+.user {
+    position: inherit;
+    width: 100px;
+    height: 20px;
+    background-color: #800080;
+}
+
+.ball {
+    position: inherit;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #f26f56;
+}
